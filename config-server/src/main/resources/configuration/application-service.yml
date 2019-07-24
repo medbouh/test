@@ -1,0 +1,4 @@
+server.port: ${port:8083}
+#logging properties
+logging.level.com.api.demo.*: TRACE
+logging.file: C:/Users/admin/IdeaProjects/api-microservices/logs/application-service.log

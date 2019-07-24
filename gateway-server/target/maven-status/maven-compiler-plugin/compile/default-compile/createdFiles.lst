@@ -1,0 +1,11 @@
+com\a2a\api\microservices\config\PostFilter.class
+com\a2a\api\microservices\security\OAuth2ResourceServerConfig.class
+com\a2a\api\microservices\security\SecurityConstants.class
+com\a2a\api\microservices\config\PreFilter.class
+com\a2a\api\microservices\security\CustomUserAuthenticationConverter.class
+com\a2a\api\microservices\config\ErrorFilter.class
+com\a2a\api\microservices\GatewayApplication.class
+com\a2a\api\microservices\config\RouteFilter.class
+com\a2a\api\microservices\security\AuthenticatedUser.class
+com\a2a\api\microservices\security\CustomJwtAccessTokenConverter.class
+com\a2a\api\microservices\config\CostumZuulFilter.class

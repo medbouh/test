@@ -1,0 +1,15 @@
+com\a2a\api\microservices\application\ApplicationServiceApplication.class
+com\a2a\api\microservices\application\api\ApplicationResource.class
+com\a2a\api\microservices\application\domaine\Statut.class
+com\a2a\api\microservices\application\domaine\Agent.class
+com\a2a\api\microservices\application\domaine\Application.class
+com\a2a\api\microservices\application\api\StatutResource.class
+com\a2a\api\microservices\application\repository\ApplicationRepository.class
+com\a2a\api\microservices\application\domaine\Comment.class
+com\a2a\api\microservices\application\repository\StatutRepository.class
+com\a2a\api\microservices\application\service\ApplicationService.class
+com\a2a\api\microservices\application\service\CommentService.class
+com\a2a\api\microservices\application\repository\CommentRepository.class
+com\a2a\api\microservices\application\client\WaitqueueClient.class
+com\a2a\api\microservices\application\service\StatutService.class
+com\a2a\api\microservices\application\client\ClientConstants.class

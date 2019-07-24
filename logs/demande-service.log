@@ -1,0 +1,1201 @@
+2019-05-30 02:36:43.581  WARN 8624 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h14m48s562ms725µs109ns).
+2019-05-30 10:05:46.886  WARN 8624 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h29m13s503ms349µs334ns).
+2019-05-30 10:05:49.954  INFO 8624 --- [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WAITQUEUE-SERVICE with eureka with status DOWN
+2019-05-30 10:05:49.954  WARN 8624 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1559203549954, current=DOWN, previous=UP]
+2019-05-30 10:05:49.954  INFO 8624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/DESKTOP-8HS5JFC:waitqueue-service:8083: registering service...
+2019-05-30 10:05:49.985  INFO 8624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/DESKTOP-8HS5JFC:waitqueue-service:8083 - registration status: 204
+2019-05-30 10:05:50.001  INFO 8624 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-30 10:05:50.017  INFO 8624 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-30 10:05:50.032  INFO 8624 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-05-30 10:05:50.095  INFO 8624 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-05-30 10:05:53.106  INFO 8624 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-05-30 10:05:53.122  INFO 8624 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/DESKTOP-8HS5JFC:waitqueue-service:8083 - deregister  status: 200
+2019-05-30 10:05:53.137  INFO 8624 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-05-30 10:05:53.137  INFO 8624 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-30 10:05:53.153  INFO 8624 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-30 10:09:14.130  INFO 14352 --- [main] com.a2a.api.microservices.department.WaitqueueServiceApplication             : No active profile set, falling back to default profiles: default
+2019-05-30 10:09:15.693  INFO 14352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-30 10:09:15.920  INFO 14352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 217ms. Found 6 repository interfaces.
+2019-05-30 10:09:16.721  INFO 14352 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3e7ded1d-53eb-3ea1-b72a-b3b00bfed87e
+2019-05-30 10:09:17.111  INFO 14352 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7703d804] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 10:09:17.172  INFO 14352 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$931ddb01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 10:09:18.272  INFO 14352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2019-05-30 10:09:18.342  INFO 14352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-30 10:09:18.344  INFO 14352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-30 10:09:18.847  INFO 14352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-30 10:09:18.861  INFO 14352 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4694 ms
+2019-05-30 10:09:19.404  INFO 14352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-30 10:09:19.874  INFO 14352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-30 10:09:20.055  INFO 14352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-30 10:09:20.304  INFO 14352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-30 10:09:20.308  INFO 14352 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-30 10:09:20.856  INFO 14352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-30 10:09:21.413  INFO 14352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-05-30 10:09:23.791  INFO 14352 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/C:/Users/admin/IdeaProjects/api-microservices/waitqueue-service/target/classes/import.sql)'
+2019-05-30 10:09:23.806  WARN 14352 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (1, 'créé')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (1, 'créé')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (1, 'créé') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:09:23.808  WARN 14352 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (2, 'en attente du citoyen')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (2, 'en attente du citoyen')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (2, 'en attente du citoyen') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:09:23.808  WARN 14352 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (3, 'en cours de traîtement')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (3, 'en cours de traîtement')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (3, 'en cours de traîtement') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:09:23.808  WARN 14352 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (4, 'abondonné')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (4, 'abondonné')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (4, 'abondonné') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:09:23.822  WARN 14352 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (5, 'traité')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (5, 'traité')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (5, 'traité') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:09:23.822  WARN 14352 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO agent (id,first_name,last_name) VALUES ('consultations') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:09:23.829  WARN 14352 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO agent (id,first_name,last_name) VALUES ('consultations') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:09:23.836  INFO 14352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-30 10:09:25.091  WARN 14352 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-30 10:09:25.094  INFO 14352 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-30 10:09:25.113  WARN 14352 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-30 10:09:25.113  INFO 14352 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-30 10:09:25.680  INFO 14352 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-30 10:09:25.862  WARN 14352 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-30 10:09:27.896  INFO 14352 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-05-30 10:09:27.999  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-05-30 10:09:28.531  INFO 14352 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-05-30 10:09:28.532  INFO 14352 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-05-30 10:09:28.857  INFO 14352 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-05-30 10:09:28.858  INFO 14352 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-05-30 10:09:29.363  INFO 14352 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:09:29.584  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-05-30 10:09:29.584  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-05-30 10:09:29.584  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-05-30 10:09:29.585  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-05-30 10:09:29.585  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-05-30 10:09:29.586  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-05-30 10:09:29.586  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-05-30 10:09:30.056  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-05-30 10:09:30.062  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-05-30 10:09:30.067  INFO 14352 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-30 10:09:30.075  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1559203770071 with initial instances count: 1
+2019-05-30 10:09:30.079  INFO 14352 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WAITQUEUE-SERVICE with eureka with status UP
+2019-05-30 10:09:30.082  INFO 14352 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1559203770082, current=UP, previous=STARTING]
+2019-05-30 10:09:30.086  INFO 14352 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083: registering service...
+2019-05-30 10:09:30.154  INFO 14352 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083 - registration status: 204
+2019-05-30 10:09:30.205  INFO 14352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2019-05-30 10:09:30.208  INFO 14352 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2019-05-30 10:09:30.227  INFO 14352 --- [main] com.a2a.api.microservices.department.WaitqueueServiceApplication             : Started WaitQueueApplication in 21.032 seconds (JVM running for 22.453)
+2019-05-30 10:10:45.336  INFO 14352 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-30 10:10:45.336  INFO 14352 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-30 10:10:45.385  INFO 14352 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 49 ms
+2019-05-30 10:10:46.346  INFO 14352 --- [http-nio-8083-exec-1] com.api.service.AgentService             : Récupération de tous les agens
+2019-05-30 10:10:46.594  INFO 14352 --- [http-nio-8083-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-05-30 10:10:49.897  INFO 14352 --- [http-nio-8083-exec-2] com.api.service.AgentService             : Récupération de tous les agens
+2019-05-30 10:10:51.722  INFO 14352 --- [http-nio-8083-exec-3] com.api.service.AgentService             : Récupération de tous les agens
+2019-05-30 10:10:53.138  INFO 14352 --- [http-nio-8083-exec-4] com.api.service.AgentService             : Récupération de tous les agens
+2019-05-30 10:14:29.667  INFO 14352 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:16:54.972  INFO 14352 --- [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WAITQUEUE-SERVICE with eureka with status DOWN
+2019-05-30 10:16:54.973  WARN 14352 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1559204214973, current=DOWN, previous=UP]
+2019-05-30 10:16:54.979  INFO 14352 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083: registering service...
+2019-05-30 10:16:54.988  INFO 14352 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-30 10:16:54.992  INFO 14352 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083 - registration status: 204
+2019-05-30 10:16:54.995  INFO 14352 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-30 10:16:54.996  INFO 14352 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-05-30 10:16:55.042  INFO 14352 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-05-30 10:16:58.048  INFO 14352 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-05-30 10:16:58.129  INFO 14352 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083 - deregister  status: 200
+2019-05-30 10:16:58.165  INFO 14352 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-05-30 10:16:58.167  INFO 14352 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-30 10:16:58.185  INFO 14352 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-30 10:17:09.250  INFO 5236 --- [main] com.a2a.api.microservices.department.WaitqueueServiceApplication             : No active profile set, falling back to default profiles: default
+2019-05-30 10:17:10.536  INFO 5236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-30 10:17:10.739  INFO 5236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180ms. Found 6 repository interfaces.
+2019-05-30 10:17:11.833  INFO 5236 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3e7ded1d-53eb-3ea1-b72a-b3b00bfed87e
+2019-05-30 10:17:12.472  INFO 5236 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$caf20642] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 10:17:12.663  INFO 5236 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e70c093f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-30 10:17:14.722  INFO 5236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2019-05-30 10:17:14.870  INFO 5236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-30 10:17:14.875  INFO 5236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-30 10:17:15.867  INFO 5236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-30 10:17:15.867  INFO 5236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6596 ms
+2019-05-30 10:17:17.087  INFO 5236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-30 10:17:17.861  INFO 5236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-30 10:17:18.256  INFO 5236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-30 10:17:18.592  INFO 5236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-30 10:17:18.600  INFO 5236 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-30 10:17:19.349  INFO 5236 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-30 10:17:20.075  INFO 5236 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-05-30 10:17:23.873  INFO 5236 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/C:/Users/admin/IdeaProjects/api-microservices/waitqueue-service/target/classes/import.sql)'
+2019-05-30 10:17:23.894  WARN 5236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (1, 'créé')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (1, 'créé')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (1, 'créé') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:17:23.905  WARN 5236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (2, 'en attente du citoyen')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (2, 'en attente du citoyen')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (2, 'en attente du citoyen') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:17:23.914  WARN 5236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (3, 'en cours de traîtement')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (3, 'en cours de traîtement')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (3, 'en cours de traîtement') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:17:23.922  WARN 5236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (4, 'abondonné')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (4, 'abondonné')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (4, 'abondonné') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:17:23.927  WARN 5236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (5, 'traité')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO statut (id, code,statut) VALUES (5, 'traité')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO statut (id, code,statut) VALUES (5, 'traité') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:17:23.939  WARN 5236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO agent (id,first_name,last_name) VALUES ('consultations') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:17:23.944  WARN 5236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "INSERT INTO agent (id,first_name,last_name) VALUES ('consultations')" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(SchemaCreatorImpl.java:491) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:180) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.a2a.api.microservices.department.WaitqueueServiceApplication.main(WaitQueueApplication.java:12) ~[classes/:na]
+Caused by: org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO agent (id,first_name,last_name) VALUES ('consultations') [21002-195]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.dml.Insert.prepare(Insert.java:265) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.command.Parser.prepareCommand(Parser.java:262) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareLocal(Session.java:573) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.engine.Session.prepareCommand(Session.java:514) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:177) ~[h2-1.4.195.jar:1.4.195]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:165) ~[h2-1.4.195.jar:1.4.195]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	... 33 common frames omitted
+
+2019-05-30 10:17:23.954  INFO 5236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-30 10:17:25.942  WARN 5236 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-30 10:17:25.944  INFO 5236 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-30 10:17:25.976  WARN 5236 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-05-30 10:17:25.981  INFO 5236 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-30 10:17:26.906  INFO 5236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-30 10:17:27.111  WARN 5236 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-30 10:17:30.340  INFO 5236 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-05-30 10:17:30.595  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-05-30 10:17:31.287  INFO 5236 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-05-30 10:17:31.287  INFO 5236 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-05-30 10:17:31.829  INFO 5236 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-05-30 10:17:31.829  INFO 5236 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-05-30 10:17:32.613  INFO 5236 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:17:32.914  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-05-30 10:17:32.914  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-05-30 10:17:32.914  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-05-30 10:17:32.914  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-05-30 10:17:32.914  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-05-30 10:17:32.914  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-05-30 10:17:32.931  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-05-30 10:17:33.395  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-05-30 10:17:33.412  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-05-30 10:17:33.412  INFO 5236 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-30 10:17:33.429  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1559204253429 with initial instances count: 2
+2019-05-30 10:17:33.429  INFO 5236 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WAITQUEUE-SERVICE with eureka with status UP
+2019-05-30 10:17:33.446  INFO 5236 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1559204253446, current=UP, previous=STARTING]
+2019-05-30 10:17:33.453  INFO 5236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083: registering service...
+2019-05-30 10:17:33.573  INFO 5236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083 - registration status: 204
+2019-05-30 10:17:33.610  INFO 5236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2019-05-30 10:17:33.614  INFO 5236 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2019-05-30 10:17:33.634  INFO 5236 --- [main] com.a2a.api.microservices.department.WaitqueueServiceApplication             : Started WaitQueueApplication in 28.986 seconds (JVM running for 30.413)
+2019-05-30 10:19:36.327  INFO 5236 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-30 10:19:36.328  INFO 5236 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-30 10:19:36.381  INFO 5236 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
+2019-05-30 10:19:37.068 ERROR 5236 --- [http-nio-8083-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No primary or default constructor found for class org.springframework.security.core.userdetails.User] with root cause
+
+java.lang.NoSuchMethodException: org.springframework.security.core.userdetails.User.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3355) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2559) ~[na:na]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.createAttribute(ModelAttributeMethodProcessor.java:216) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletModelAttributeMethodProcessor.createAttribute(ServletModelAttributeMethodProcessor.java:84) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:139) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2019-05-30 10:19:41.430 ERROR 5236 --- [http-nio-8083-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No primary or default constructor found for class org.springframework.security.core.userdetails.User] with root cause
+
+java.lang.NoSuchMethodException: org.springframework.security.core.userdetails.User.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3355) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2559) ~[na:na]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.createAttribute(ModelAttributeMethodProcessor.java:216) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletModelAttributeMethodProcessor.createAttribute(ServletModelAttributeMethodProcessor.java:84) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:139) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2019-05-30 10:21:18.117 ERROR 5236 --- [http-nio-8083-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No primary or default constructor found for class org.springframework.security.core.userdetails.User] with root cause
+
+java.lang.NoSuchMethodException: org.springframework.security.core.userdetails.User.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3355) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2559) ~[na:na]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.createAttribute(ModelAttributeMethodProcessor.java:216) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletModelAttributeMethodProcessor.createAttribute(ServletModelAttributeMethodProcessor.java:84) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:139) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2019-05-30 10:21:20.142 ERROR 5236 --- [http-nio-8083-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No primary or default constructor found for class org.springframework.security.core.userdetails.User] with root cause
+
+java.lang.NoSuchMethodException: org.springframework.security.core.userdetails.User.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3355) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2559) ~[na:na]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.createAttribute(ModelAttributeMethodProcessor.java:216) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletModelAttributeMethodProcessor.createAttribute(ServletModelAttributeMethodProcessor.java:84) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:139) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:835) ~[na:na]
+
+2019-05-30 10:22:32.944  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:27:32.951  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:32:32.955  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:37:32.957  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:42:32.964  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:47:32.967  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:52:32.972  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 10:57:32.974  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:02:32.982  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:07:33.010  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:12:33.014  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:17:33.018  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:22:33.020  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:27:33.024  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:32:33.027  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:37:33.029  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:42:33.030  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:47:33.032  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:52:33.034  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 11:57:33.035  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:02:33.037  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:07:33.039  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:12:33.040  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:17:33.041  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:22:33.044  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:42:33.052  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:47:33.052  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:52:33.054  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 12:57:33.055  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 13:02:33.057  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 13:07:33.063  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 13:12:33.068  INFO 5236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-05-30 13:13:39.234  INFO 5236 --- [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WAITQUEUE-SERVICE with eureka with status DOWN
+2019-05-30 13:13:39.236  WARN 5236 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1559214819236, current=DOWN, previous=UP]
+2019-05-30 13:13:39.240  INFO 5236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083: registering service...
+2019-05-30 13:13:39.270  INFO 5236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083 - registration status: 204
+2019-05-30 13:13:39.297  INFO 5236 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-30 13:13:39.317  INFO 5236 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-30 13:13:39.323  INFO 5236 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-05-30 13:13:39.794  INFO 5236 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-05-30 13:13:42.805  INFO 5236 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-05-30 13:13:42.819  INFO 5236 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WAITQUEUE-SERVICE/192.168.0.17:waitqueue-service:8083 - deregister  status: 200
+2019-05-30 13:13:42.842  INFO 5236 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-05-30 13:13:42.843  INFO 5236 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-30 13:13:42.853  INFO 5236 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

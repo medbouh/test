@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="application-service" />
+        <module name="commons-errors" />
+        <module name="eureka-server" />
+        <module name="config-server" />
+        <module name="waitqueue-service" />
+        <module name="commons-security" />
+        <module name="gateway-server" />
+        <module name="department-service" />
+        <module name="commonserror" />
+        <module name="agent-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons-domaine" target="1.8" />
+      <module name="commons-error" target="1.8" />
+      <module name="demande-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="agent-service" options="-parameters" />
+      <module name="application-service" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="commons-domaine" options="-parameters" />
+      <module name="commons-error" options="-parameters" />
+      <module name="commons-errors" options="-parameters" />
+      <module name="commons-security" options="-parameters" />
+      <module name="commonserror" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="demande-service" options="-parameters" />
+      <module name="department-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="projet-parent" options="-parameters" />
+      <module name="waitqueue-service" options="-parameters" />
+    </option>
+  </component>
+</project>

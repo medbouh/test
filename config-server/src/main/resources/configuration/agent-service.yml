@@ -1,0 +1,3 @@
+server.port: ${port:8082}
+logging.level.com.a2a.api.microservices.agent.*: TRACE
+logging.file: C:/Users/admin/IdeaProjects/api-microservices/logs/agent-service.log

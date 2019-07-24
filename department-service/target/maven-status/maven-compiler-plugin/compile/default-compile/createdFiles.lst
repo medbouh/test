@@ -1,0 +1,6 @@
+com\a2a\api\microservices\department\repository\DepartmentRepository.class
+com\a2a\api\microservices\department\DepartmentServiceApplication.class
+com\a2a\api\microservices\department\domaine\Department.class
+com\a2a\api\microservices\department\Client\AgentClient.class
+com\a2a\api\microservices\department\api\DepartmentResource.class
+com\a2a\api\microservices\department\service\DepartmentService.class

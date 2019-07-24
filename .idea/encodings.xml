@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-domaine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-error" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-errors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demande-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/department-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/waitqueue-service" charset="UTF-8" />
+  </component>
+</project>

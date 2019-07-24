@@ -1,0 +1,15 @@
+server:
+  port: ${port:9080}
+
+zuul:
+  routes:
+    agent-service:
+      serviceId: agent-service
+    application-service:
+      serviceId: application-service
+    department-service:
+      serviceId: department-service
+    waitqueue-service:
+      serviceId: waitqueue-service
+
+

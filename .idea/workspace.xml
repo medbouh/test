@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b357044-61eb-496a-84bb-50a53f172f6c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ms/target/" />
+    <ignored path="$PROJECT_DIR$/commons-error/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/gateway-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/demande-service/target/" />
+    <ignored path="$PROJECT_DIR$/WaitList/target/" />
+    <ignored path="$PROJECT_DIR$/waitQueue-service/target/" />
+    <ignored path="$PROJECT_DIR$/apisecurity/target/" />
+    <ignored path="$PROJECT_DIR$/agent-service/target/" />
+    <ignored path="$PROJECT_DIR$/application-service/target/" />
+    <ignored path="$PROJECT_DIR$/department-service/target/" />
+    <ignored path="$PROJECT_DIR$/commons-domaine/target/" />
+    <ignored path="$PROJECT_DIR$/commons/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons-errors/target/" />
+    <ignored path="$PROJECT_DIR$/commons/commons-security/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="api-microservices" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configuration/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/CustomUserAuthenticationConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/OAuth2ResourceServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="21" column="79" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="79" />
+              <folding>
+                <element signature="e#2872#2873#0" expanded="true" />
+                <element signature="e#2939#2940#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.0.1.RELEASE/spring-security-oauth2-autoconfigure-2.0.1.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/resource/ResourceServerProperties.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/commons-security/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/AuthenticatedUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/department-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/SecurityConstants.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/CustomJwtAccessTokenConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findIndexByServiceId</find>
+      <find>domaine</find>
+      <find>apise</find>
+      <find>org.apache.commons</find>
+      <find>commons-lang3</find>
+      <find>fe</find>
+      <find>cloud</find>
+      <find>security</find>
+      <find>rg.springframework.security</find>
+      <find>START</find>
+      <find>jack</find>
+      <find>feign</find>
+      <find>swa</find>
+      <find>eureka</find>
+      <find>log4j2</find>
+      <find>jpa</find>
+      <find>eure</find>
+      <find>zu</find>
+      <find>config-server</find>
+      <find>2.1.4.RELEASE</find>
+      <find>jpa-version</find>
+      <find>starter-openfeign</find>
+      <find>javassist</find>
+      <find>cloud-dependencies</find>
+      <find>callApplicationByAgent</find>
+      <find>statutRepository.findById(statutId).get(</find>
+      <find>departmentRepository.findById(DepartmentId).get()</find>
+      <find>waitqueueRepository.decreaseNbOfApplicationInTheWaitedList(Integer.valueOf(departmentId), nb);</find>
+      <find>Auth</find>
+      <find>BEARER_PREFIX</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\admin\IdeaProjects\api-microservices</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configuration/gateway-server.yml" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/a2a/api/microservices/department/AgentClient/AgentClient.java" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/a2a/api/microservices/department/DepartmentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/config/PostFilter.java" />
+        <option value="$PROJECT_DIR$/application-service/src/main/java/com/a2a/api/microservices/application/service/ApplicationService.java" />
+        <option value="$PROJECT_DIR$/application-service/src/main/java/com/a2a/api/microservices/application/service/StatutService.java" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/a2a/api/microservices/department/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/waitqueue-service/src/main/java/com/a2a/api/microservices/waitqueue/service/WaitqueueService.java" />
+        <option value="$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/DataSourceProperties.java" />
+        <option value="$PROJECT_DIR$/application-service/src/main/java/com/a2a/api/microservices/application/api/ApplicationResource.java" />
+        <option value="$PROJECT_DIR$/application-service/src/main/java/com/a2a/api/microservices/application/api/StatutResource.java" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/a2a/api/microservices/department/api/DepartmentResource.java" />
+        <option value="$PROJECT_DIR$/waitqueue-service/src/main/java/com/a2a/api/microservices/waitqueue/api/WaitqueueResource.java" />
+        <option value="$PROJECT_DIR$/department-service/src/main/java/com/a2a/api/microservices/department/Client/AgentClient.java" />
+        <option value="$PROJECT_DIR$/waitqueue-service/src/main/java/com/a2a/api/microservices/waitqueue/client/DepartmentClient.java" />
+        <option value="$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/DepartmentFeignClient.java" />
+        <option value="$PROJECT_DIR$/waitqueue-service/pom.xml" />
+        <option value="$PROJECT_DIR$/application-service/pom.xml" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/AgentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configuration/agent-service.yml" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/domaine/Department.java" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/client/DepartmentClient.java" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/domaine/Agent.java" />
+        <option value="$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/domaine/Department.java" />
+        <option value="$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/DepartmentClient.java" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/service/AgentService.java" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/api/AgentResource.java" />
+        <option value="$PROJECT_DIR$/agent-service/src/test/java/com/a2a/api/microservices/agent/api/AgentResourceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/agent-service/src/test/java/com/a2a/api/microservices/agent/service/AgentServiceTest.java" />
+        <option value="$PROJECT_DIR$/agent-service/src/test/java/com/a2a/api/microservices/agent/api/AgentResourceIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/config/PreFilter.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/JwtTokenUtil.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/SecurityTokenConfig.java" />
+        <option value="$PROJECT_DIR$/gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/ApiProperties.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/CustomJwtAccessTokenConverter.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/Authority.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/AuthenticatedUser.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/CustomUserAuthenticationConverter.java" />
+        <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/OAuth2ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/security/OAuth2ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/security/AuthenticatedUser.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configuration/application.yml" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/CustomJwtAccessTokenConverter.java" />
+        <option value="$PROJECT_DIR$/agent-service/pom.xml" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/AuthenticatedUser.java" />
+        <option value="$PROJECT_DIR$/department-service/pom.xml" />
+        <option value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/OAuth2ResourceServerConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="application-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="application-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="config-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="125" />
+    <option name="width" value="1440" />
+    <option name="height" value="765" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-microservices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="department-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.a2a.api.microservices.agent.service" />
+      <recent name="com.a2a.api.microservices.agent.api" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\api-microservices\agent-service\src\main\java\com\a2a\api\microservices\agent" />
+      <recent name="C:\Users\admin\IdeaProjects\api-microservices\commons\commons-security\src\main\java\com\a2a\api\microservices" />
+      <recent name="C:\Users\admin\IdeaProjects\api-microservices\gateway-server\src\main\java\com\a2a\api\microservices\security" />
+      <recent name="C:\Users\admin\IdeaProjects\api-microservices\application-service\src\main\resources" />
+      <recent name="C:\Users\admin\IdeaProjects\api-microservices\commons\commons-security\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.a2a.api.microservices.domaine" />
+      <recent name="com.a2a.api.microservices" />
+      <recent name="com.a2a.api.microservices.agent.domaine" />
+      <recent name="com.a2a.api.microservices.department.AgentClient" />
+      <recent name="com.a2a.api.microservices.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\api-microservices\demande-service\src\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AgentResourceIntegrationTest.sayHello">
+    <configuration name="AgentServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.agent.AgentServiceApplication" />
+      <module name="agent-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.agent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.department.ApplicationServiceApplication" />
+      <module name="application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.department.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationServiceApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.application.ApplicationServiceApplication" />
+      <module name="application-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.config.ConfigServerApplication" />
+      <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.department.DepartmentServiceApplication" />
+      <module name="department-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.department.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.GatewayApplication" />
+      <module name="gateway-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryServerApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.eureka.RegistryServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitqueueServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.department.WaitqueueServiceApplication" />
+      <module name="waitqueue-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.department.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitqueueServiceApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.waitqueue.WaitqueueServiceApplication" />
+      <module name="waitqueue-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.waitqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgentResourceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.agent.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.a2a.api.microservices.agent.api" />
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.agent.api.AgentResourceIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgentResourceIntegrationTest.sayHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.agent.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.a2a.api.microservices.agent.api" />
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.agent.api.AgentResourceIntegrationTest" />
+      <option name="METHOD_NAME" value="sayHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgentServiceTest.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.agent.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.a2a.api.microservices.agent.service" />
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.agent.service.AgentServiceTest" />
+      <option name="METHOD_NAME" value="init" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgentServiceTest.sayHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.agent.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.a2a.api.microservices.agent.service" />
+      <option name="MAIN_CLASS_NAME" value="com.a2a.api.microservices.agent.service.AgentServiceTest" />
+      <option name="METHOD_NAME" value="sayHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.a2a.api.microservices.agent in agent-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agent-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.a2a.api.microservices.agent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.a2a.api.microservices.agent" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="demande-service" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="demande-service" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AgentServiceApplication" />
+      <item itemvalue="Application.ApplicationServiceApplication" />
+      <item itemvalue="Application.ConfigServerApplication" />
+      <item itemvalue="Application.DepartmentServiceApplication" />
+      <item itemvalue="Application.GatewayApplication" />
+      <item itemvalue="Application.RegistryServerApplication" />
+      <item itemvalue="Application.WaitqueueServiceApplication" />
+      <item itemvalue="JUnit.AgentResourceIntegrationTest" />
+      <item itemvalue="JUnit.AgentResourceIntegrationTest.sayHello" />
+      <item itemvalue="JUnit.AgentServiceTest.init" />
+      <item itemvalue="JUnit.AgentServiceTest.sayHello" />
+      <item itemvalue="JUnit.com.a2a.api.microservices.agent in agent-service" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AgentResourceIntegrationTest.sayHello" />
+        <item itemvalue="JUnit.AgentResourceIntegrationTest" />
+        <item itemvalue="JUnit.AgentServiceTest.sayHello" />
+        <item itemvalue="JUnit.AgentServiceTest.init" />
+        <item itemvalue="JUnit.com.a2a.api.microservices.agent in agent-service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b357044-61eb-496a-84bb-50a53f172f6c" name="Default Changelist" comment="" />
+      <created>1558216602881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558216602881</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AgentServiceTest_sayHello - 2019.06.26 at 18h 09m 44s.xml">
+      <configuration name="AgentServiceTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest_sayHello - 2019.06.26 at 18h 28m 21s.xml">
+      <configuration name="AgentResourceIntegrationTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest_sayHello - 2019.06.26 at 18h 28m 42s.xml">
+      <configuration name="AgentResourceIntegrationTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest_sayHello - 2019.06.26 at 18h 29m 31s.xml">
+      <configuration name="AgentResourceIntegrationTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest - 2019.06.26 at 18h 29m 40s.xml">
+      <configuration name="AgentResourceIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest - 2019.06.26 at 18h 30m 42s.xml">
+      <configuration name="AgentResourceIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest - 2019.06.26 at 18h 31m 32s.xml">
+      <configuration name="AgentResourceIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest_sayHello - 2019.06.26 at 18h 31m 47s.xml">
+      <configuration name="AgentResourceIntegrationTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest_sayHello - 2019.06.26 at 18h 32m 03s.xml">
+      <configuration name="AgentResourceIntegrationTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AgentResourceIntegrationTest_sayHello - 2019.06.26 at 18h 32m 15s.xml">
+      <configuration name="AgentResourceIntegrationTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57788944" visible="true" weight="0.16107382" />
+      <window_info id="Structure" order="1" sideWeight="0.4220963" side_tool="true" weight="0.27248323" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.42211056" side_tool="true" weight="0.27248323" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3371105" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.60481584" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.30736545" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013423" side_tool="true" weight="0.3555241" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.15439093" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.37181208" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/demande-service/src/main/java/com.api.demo/service/Repository/WaitedListRepository.java</url>
+          <line>16</line>
+          <properties class="com.api.demo.service.Repository.WaitedListRepository" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demande-service/src/main/java/com.api.demo/service/WaitedListService.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demande-service/src/main/java/com.api.demo/service/ApplicationService.java</url>
+          <line>58</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/demande-service/src/main/java/com.api.demo/service/ApplicationService.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/service/AgentService.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>agent.getId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Integer.valueOf(id)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>serviceId</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new WaitedList(Integer.valueOf(serviceId), 0, 0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nb</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>findAllDemandes().size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!fileAttenteService.existes(demande.getDepartementId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fileAttenteService.existes(demande.getDepartementId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fileAttenteService.findAllDemandes().size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configuration/agent-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/domaine/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/domaine/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/client/DepartmentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/test/java/com/a2a/api/microservices/agent/service/AgentServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="123" column="46" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/test/java/com/a2a/api/microservices/agent/api/AgentResourceIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/service/AgentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/config/CostumZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/DepartmentFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/DepartmentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/ServicesUris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/WaitQueueFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/config/PreFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/JwtTokenUtil.java" />
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/SecurityTokenConfig.java" />
+    <entry file="file://$PROJECT_DIR$/gateway-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/SecurityConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/ApiProperties.java" />
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/Authority.java" />
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/CustomJwtAccessTokenConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/CustomUserAuthenticationConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="89" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/a2a/api/microservices/security/OAuth2ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3008#3009#0" expanded="true" />
+            <element signature="e#3075#3076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/domaine/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/ClassMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-errors/src/main/java/com/a2a/api/microservices/ApiError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-errors/src/main/java/com/a2a/api/microservices/ApiException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-errors/src/main/java/com/a2a/api/microservices/ClassMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-errors/src/main/java/com/a2a/api/microservices/HandlerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/DataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/AgentServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/api/AgentResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/security/SecurityConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/security/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/security/CustomJwtAccessTokenConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/security/OAuth2ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/src/main/java/com/a2a/api/microservices/security/CustomUserAuthenticationConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configuration/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/CustomUserAuthenticationConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.0.1.RELEASE/spring-security-oauth2-autoconfigure-2.0.1.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/resource/ResourceServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/commons-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/SecurityConstants.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/CustomJwtAccessTokenConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-service/src/main/java/com/a2a/api/microservices/agent/security/OAuth2ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="79" />
+          <folding>
+            <element signature="e#2872#2873#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>commons-domaine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
