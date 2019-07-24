@@ -18,6 +18,7 @@ public class AgentResource {
 
     @GetMapping(value = "/hello")
     public String sayHello(@RequestParam(value="name", defaultValue="World") String name) {
+        // un commentaire juste pour tester le commit
         logger.trace("TRACE Message");
         logger.debug("DEBUG Message");
         logger.info("INFO Message");
