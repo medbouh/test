@@ -30,6 +30,12 @@
         <rxjava.version>1.2.4</rxjava.version>
         <maven-release-plugin.version>2.4.2</maven-release-plugin.version>
     </properties>
+             <scm>
+        <url>https://github.com/medbouh/test</url>
+        <connection>scm:git:https://github.com/medbouh/test.git</connection>
+        <developerConnection>scm:git:https://github.com/medbouh/test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
