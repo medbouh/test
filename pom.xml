@@ -148,6 +148,35 @@
             </plugins>
         </pluginManagement>
     </build>
+	<repositories>
+		<!-- To be able to access the following repository, you will need to configure 
+			your w4store's credentials in maven settings.xml with the following snippet 
+			<server> <id>w4store</id> <username>...</username> <password>mypass456</password> 
+			</server> -->
+		<repository>
+			<id>w4store</id>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+			<url>http://maven.w4store.com/repository/all/</url>
+		</repository>
+
+		<repository>
+			<id>sfr.release</id>
+			<name>Nexus - releases</name>
+			<url>http://nr0u0642.cbv.ldcom.ld:9090/nexus/content/repositories/releases</url>
+		</repository>
+
+		<!-- <repository> -->
+		<!-- <id>w4store</id> -->
+		<!-- <url>http://maven.w4store.com/repository/contrib/</url> -->
+		<!-- </repository> -->
+	</repositories>
 
 </project>
 
