@@ -28,6 +28,7 @@
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
         <jaxb-version>2.4.0-b180725.0427</jaxb-version>
         <rxjava.version>1.2.4</rxjava.version>
+        <maven-release-plugin.version>2.4.2</maven-release-plugin.version>
     </properties>
     <dependencies>
         <dependency>
