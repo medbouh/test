@@ -34,7 +34,16 @@
         <developerConnection>scm:git:https://github.com/medbouh/test.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-        
+        <repositories>
+        <repository>
+            <id>depot-public</id>
+            <name>NOBC public libraries</name>
+            <url>http://localhost:8081/nexus/content/repositories/libs-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
    <distributionManagement>
          <repository>
                   <id>nexus-releases</id>
