@@ -1,8 +1,13 @@
 com\a2a\api\microservices\DataSourceConfig.class
+com\a2a\api\microservices\security\OAuth2ResourceServerConfig.class
 com\a2a\api\microservices\domaine\Department.class
 com\a2a\api\microservices\ServicesUris.class
-com\a2a\api\microservices\WaitQueueFeignClient.class
-com\a2a\api\microservices\DataSourceProperties.class
+com\a2a\api\microservices\security\SecurityConstants.class
 com\a2a\api\microservices\ClassMain.class
 com\a2a\api\microservices\DepartmentFeignClient.class
 com\a2a\api\microservices\DepartmentClient.class
+com\a2a\api\microservices\WaitQueueFeignClient.class
+com\a2a\api\microservices\security\CustomUserAuthenticationConverter.class
+com\a2a\api\microservices\DataSourceProperties.class
+com\a2a\api\microservices\security\AuthenticatedUser.class
+com\a2a\api\microservices\security\CustomJwtAccessTokenConverter.class

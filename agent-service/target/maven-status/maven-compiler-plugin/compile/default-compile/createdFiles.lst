@@ -1,7 +1,12 @@
-com\a2a\api\microservices\agent\client\DepartmentClient.class
-com\a2a\api\microservices\agent\api\AgentResource.class
-com\a2a\api\microservices\agent\domaine\Agent.class
+com\a2a\api\microservices\agent\security\AuthenticatedUser.class
+com\a2a\api\microservices\agent\security\SecurityConstants.class
+com\a2a\api\microservices\agent\security\OAuth2ResourceServerConfig.class
 com\a2a\api\microservices\agent\service\AgentService.class
 com\a2a\api\microservices\agent\domaine\Department.class
 com\a2a\api\microservices\agent\AgentServiceApplication.class
+com\a2a\api\microservices\agent\client\DepartmentClient.class
+com\a2a\api\microservices\agent\security\CustomUserAuthenticationConverter.class
+com\a2a\api\microservices\agent\api\AgentResource.class
+com\a2a\api\microservices\agent\domaine\Agent.class
+com\a2a\api\microservices\agent\security\CustomJwtAccessTokenConverter.class
 com\a2a\api\microservices\agent\repository\AgentRepository.class
