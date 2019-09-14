@@ -13,6 +13,7 @@
 		<!-- test newBranch -->
 		<!-- test newBranch -->
     </parent>
+    <!-- test --> 
     <modules>
         <module>config-server</module>
         <module>waitqueue-service</module>
