@@ -16,6 +16,17 @@ pipeline {
                 cleanWs()
             }
         }
+        stage('Git Pull') {
+            steps {
+                checkout([
+                    $class: 'GitSCM',
+                    branches: scm.branches,
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: scm.extensions,
+                    userRemoteConfigs: scm.userRemoteConfigs
+                ])
+            }
+        }
         stage('Build') {
             steps {
                 withMaven(jdk: 'JAVA-8', maven: 'MAVEN-3.5.2') {
