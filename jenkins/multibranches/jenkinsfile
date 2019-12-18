@@ -1,0 +1,30 @@
+pipeline {
+
+    agent { label 'phobos||deimos'}
+
+
+    stages {
+        stage('Get AgentName'){
+            steps {
+                sh '''
+                hostname -i
+                '''
+            }
+        }
+        stage('Clean Workspace'){
+            steps {
+                cleanWs()
+            }
+        }
+        stage('Build') {
+            steps {
+                withMaven(jdk: 'JAVA-8', maven: 'MAVEN-3.5.2') {
+                    sh '''
+                    #cd catalogue-centraliseV2
+                    mvn -U clean install -Dmaven.test.skip=true
+                    '''
+                }
+            }
+        }
+    }
+}
