@@ -23,7 +23,7 @@ pipeline {
                     branches: scm.branches,
                     doGenerateSubmoduleConfigurations: false,
                     extensions: scm.extensions,
-                    userRemoteConfigs: scm.userRemoteConfigs
+                    userRemoteConfigs: [[url: 'https://github.com/medbouh/test.git']]
                 ])
             }
         }
